@@ -24,7 +24,7 @@ public class WikiMediaProducer {
     }
 
     public void sendMessage() throws InterruptedException {
-
+        //topic where data is being sent
         String topic =  "wikimedia_topic2";
 
         //Using Event Source to read real time data from wikimedia
